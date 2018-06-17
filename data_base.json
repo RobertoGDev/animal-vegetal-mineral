@@ -1,0 +1,58 @@
+{
+    "animal": {
+        "clase": {
+            "mamifero": [
+                "Perro",
+                "Gato",
+                "Tigre"
+            ],
+            "ave": [
+                "Loro",
+                "Águila"
+            ],
+            "reptil": [
+                "Iguana",
+                "Lagarto"
+            ],
+            "pez": [
+                "Tiburón",
+                "Salmón"
+            ]
+        }
+    },
+    "vegetal": {
+        "clase": {
+            "arbol": [
+                "Pino",
+                "Chopo"
+            ],
+            "comestible": [
+                "Zanahoria",
+                "Coliflor"
+            ],
+            "venenoso": [
+                "Adelfa",
+                "Seta venenosa"
+            ]
+        }
+    },
+    "mineral": {
+        "clase": {
+            "precioso": [
+                "Oro",
+                "Plata"
+            ],
+            "radiactivo": [
+                "Uranio",
+                "Plutonio"
+            ],
+            "solido": [
+                "Hierro",
+                "Cuarzo"
+            ],
+            "liquido": [
+                "Mercurio"
+            ]
+        }
+    }
+}
