@@ -1,58 +1,78 @@
 {
     "animal": {
-        "clase": {
-            "mamifero": [
-                "Perro",
-                "Gato",
-                "Tigre"
-            ],
-            "ave": [
-                "Loro",
-                "Águila"
-            ],
-            "reptil": [
-                "Iguana",
-                "Lagarto"
-            ],
-            "pez": [
-                "Tiburón",
-                "Salmón"
-            ]
+        "preguntas": {
+            "bloque1": {
+                "0": "¿Es un animal doméstico?",
+                "1": "¿Es un animal salvaje?"
+            },
+            "bloque2": {
+                "0": "¿Tiene pelo?",
+                "1": "¿Tiene plumas?",
+                "2": "¿Tiene escamas?",
+                "3": "¿Es un animal que puede hablar?",
+                "4": "¿Tiene pico?",
+                "5": "¿Es muy peligroso?"
+            }
+        },
+        "respuestas": {
+            "Perro": [0,0],
+            "Gato": [0,0],
+            "Tigre": [1,0],
+            "Loro": [1,1,3,4],
+            "Águila": [1,1,4],
+            "Iguana": [1,2],
+            "Lagarto": [1,2],
+            "Tiburón": [1,5],
+            "Salmón": [1,2]
         }
     },
+
     "vegetal": {
-        "clase": {
-            "arbol": [
-                "Pino",
-                "Chopo"
-            ],
-            "comestible": [
-                "Zanahoria",
-                "Coliflor"
-            ],
-            "venenoso": [
-                "Adelfa",
-                "Seta venenosa"
-            ]
-        }
+        "preguntas": {
+            "bloque1": {
+                "0": "¿Es un vegetal comestible?",
+                "1": "¿Es un vegetal no comestible?"
+            },
+            "bloque2": {
+                "0": "¿Es de color naranja?",
+                "1": "¿Es venenosa?",
+                "2": "¿Tiene un olor agradable?",
+                "3": "¿Es una planta muy alta?",
+                "4": "¿Huele muy mal al cocer?",
+                "5": "¿Se suele echar en ensaladas?",
+                "6": "¿Tiene flores?"
+            }
+        },
+        "respuestas": {
+                "Pino": [1,3],
+                "Secuoya": [1,4],
+                "Zanahoria": [0,5],
+                "lechuga": [0,5],
+                "Coliflor": [0,4],
+                "Adelfa": [1,1,6],
+                "Seta venenosa": [1,1]
+        } 
     },
+
     "mineral": {
-        "clase": {
-            "precioso": [
-                "Oro",
-                "Plata"
-            ],
-            "radiactivo": [
-                "Uranio",
-                "Plutonio"
-            ],
-            "solido": [
-                "Hierro",
-                "Cuarzo"
-            ],
-            "liquido": [
-                "Mercurio"
-            ]
+        "preguntas": {
+            "bloque1": {
+              "0": "¿Es un mineral precioso?",
+              "1": "¿Es un mineral común?"
+            },
+            "bloque2": {
+                "0": "¿Es de color amarillo?",
+                "1": "¿Es de color plateado?",
+                "2": "¿Es radiactivo?",
+                "3": "¿Se deshace al presionarlo?",
+                "4": "¿Es usado para forjados?"
+            }
+        },
+        "respuestas": {
+            "Oro": [0,0],
+            "Uranio": [1,2],
+            "Hierro": [1,4],
+            "Yeso": [1,3]
         }
     }
 }
