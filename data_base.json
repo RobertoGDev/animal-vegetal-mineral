@@ -1,78 +1,121 @@
 {
     "animal": {
         "preguntas": {
-            "bloque1": {
-                "0": "¿Es un animal doméstico?",
-                "1": "¿Es un animal salvaje?"
-            },
-            "bloque2": {
-                "0": "¿Tiene pelo?",
-                "1": "¿Tiene plumas?",
-                "2": "¿Tiene escamas?",
-                "3": "¿Es un animal que puede hablar?",
-                "4": "¿Tiene pico?",
-                "5": "¿Es muy peligroso?"
-            }
+            "0": "¿Es un animal doméstico?",
+            "1": "¿Tiene cuatro patas?",
+            "2": "¿Vive en los árboles?",
+            "3": "¿Tiene escamas?",
+            "4": "¿Es un animal que puede hablar?",
+            "5": "¿Tiene pico?",
+            "6": "¿Es un depredador?"
         },
         "respuestas": {
-            "Perro": [0,0],
-            "Gato": [0,0],
-            "Tigre": [1,0],
-            "Loro": [1,1,3,4],
-            "Águila": [1,1,4],
-            "Iguana": [1,2],
-            "Lagarto": [1,2],
-            "Tiburón": [1,5],
-            "Salmón": [1,2]
+            "Perro": {
+                "relQuestion": [0,1],
+                "master": "Roberto"
+            },
+            "Gato": {
+                "relQuestion": [0,1],
+                "master": "Roberto"
+            },
+            "Tigre": {
+                "relQuestion": [1,6],
+                "master": "Roberto"
+            },
+            "Loro": {
+                "relQuestion": [2,4,5],
+                "master": "Roberto"
+            },
+            "Águila": {
+                "relQuestion": [2,5,6],
+                "master": "Roberto"
+            },
+            "Iguana": {
+                "relQuestion": [3,6],
+                "master": "Roberto"
+            },
+            "Tiburón": {
+                "relQuestion": [3,6],
+                "master": "Roberto"
+            },
+            "Salmón": {
+                "relQuestion": [3],
+                "master": "Roberto"
+            }
         }
     },
 
     "vegetal": {
         "preguntas": {
-            "bloque1": {
-                "0": "¿Es un vegetal comestible?",
-                "1": "¿Es un vegetal no comestible?"
-            },
-            "bloque2": {
-                "0": "¿Es de color naranja?",
-                "1": "¿Es venenosa?",
-                "2": "¿Tiene un olor agradable?",
-                "3": "¿Es una planta muy alta?",
-                "4": "¿Huele muy mal al cocer?",
-                "5": "¿Se suele echar en ensaladas?",
-                "6": "¿Tiene flores?"
-            }
+            "0": "¿Es un vegetal comestible?",
+            "1": "¿Es venenoso?",
+            "2": "¿Tiene un olor agradable?",
+            "3": "¿Es una planta muy alta?",
+            "4": "¿Es de tipo verdura?",
+            "5": "¿Se suele echar en ensaladas?",
+            "6": "¿Tiene flores?",
+            "7": "¿Es de color naranja?",
+            "8": "¿Tiene capucha y esporas?"
         },
         "respuestas": {
-                "Pino": [1,3],
-                "Secuoya": [1,4],
-                "Zanahoria": [0,5],
-                "lechuga": [0,5],
-                "Coliflor": [0,4],
-                "Adelfa": [1,1,6],
-                "Seta venenosa": [1,1]
+            "Pino": {
+                "relQuestion": [3,2],
+                "master": "Roberto"
+            },
+            "Secuoya": {
+                "relQuestion": [3,6],
+                "master": "Roberto"
+            },
+            "Zanahoria": {
+                "relQuestion": [0,4,5],
+                "master": "Roberto"
+            },
+            "lechuga": {
+                "relQuestion": [0,4,5],
+                "master": "Roberto"
+            },
+            "Coliflor": {
+                "relQuestion": [0,4],
+                "master": "Roberto"
+            },
+            "Adelfa": {
+                "relQuestion": [1,6],
+                "master": "Roberto"
+            },
+            "Seta venenosa": {
+                "relQuestion": [1,8],
+                "master": "Roberto"
+            }
         } 
     },
 
     "mineral": {
         "preguntas": {
-            "bloque1": {
-              "0": "¿Es un mineral precioso?",
-              "1": "¿Es un mineral común?"
-            },
-            "bloque2": {
-                "0": "¿Es de color amarillo?",
-                "1": "¿Es de color plateado?",
-                "2": "¿Es radiactivo?",
-                "3": "¿Se deshace al presionarlo?",
-                "4": "¿Es usado para forjados?"
-            }
+
+            "0": "¿Es un mineral precioso?",
+            "1": "¿Tiene mucha dureza?",
+            "2": "¿Tiene un color llamativo?",
+            "3": "¿Se obtiene energía de el?",
+            "4": "¿Es muy común encontrarlo?",
+            "5": "¿Se usa como material de construcción?"
         },
         "respuestas": {
-            "Oro": [0,0],
-            "Uranio": [1,2],
-            "Hierro": [1,4],
-            "Yeso": [1,3]
+            "Oro": {
+                "relQuestion": [0,2],
+                "master": "Roberto"
+            },
+            "Uranio": {
+                "relQuestion": [2,3],
+                "master": "Roberto"
+            },
+            "Hierro": {
+                "relQuestion": [1,3,4,5],
+                "master": "Roberto"
+            },
+            "Yeso": {
+                "relQuestion": [4,5],
+                "master": "Roberto"
+            }
         }
     }
 }
